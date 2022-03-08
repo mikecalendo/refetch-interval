@@ -1,0 +1,23 @@
+{
+  "name": "refetch-interval",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.26.0",
+    "isomorphic-unfetch": "3.1.0",
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-query": "3.34.16",
+    "resolve-from": "5.0.0",
+    "webpack": "5.70.0"
+  },
+  "scripts": {
+    "clean": "rm -rf package-lock.json yarn.lock node_modules/ && yarn",
+    "dev": "next dev",
+    "start": "node ./src/index.js",
+    "build": "next build"
+  }
+}
